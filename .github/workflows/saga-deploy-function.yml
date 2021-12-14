@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main ]
     paths: 
-      - src/*
-      - .github/workflows/saga-deploy-function.yml
+      - 'src/*''
+      - ''.github/workflows/saga-deploy-function.yml'
 
 env:
   AZURE_FUNCTIONAPP_NAME: test-sagaserverless-functions  # set this to your application's name

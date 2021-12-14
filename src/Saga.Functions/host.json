@@ -6,24 +6,13 @@
     }
   },
   "logging": {
-    "fileLoggingMode": "debugOnly",
+    "fileLoggingMode": "always",
     "logLevel": {
-      "Function.MyFunction": "Information",
-      "default": "None"
+      "default": "Information"
     },
     "applicationInsights": {
       "samplingSettings": {
-        "isEnabled": true,
-        "maxTelemetryItemsPerSecond": 20,
-        "evaluationInterval": "01:00:00",
-        "initialSamplingPercentage": 100.0,
-        "samplingPercentageIncreaseTimeout": "00:00:01",
-        "samplingPercentageDecreaseTimeout": "00:00:01",
-        "minSamplingPercentage": 0.1,
-        "maxSamplingPercentage": 100.0,
-        "movingAverageRatio": 1.0,
-        "excludedTypes": "Dependency;Event",
-        "includedTypes": "PageView;Trace"
+        "isEnabled": false
       }
     }
   }
